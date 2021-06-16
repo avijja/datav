@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -7,7 +6,7 @@
 
 </head>
 <body background="image1.png">
-    <h1 style="color:white">唐代诗人关系图</h1>
+    <h1>唐代诗人关系图</h1>
     <div id="df7ed8c6557b4c41a7f48b2f517406c4" class="chart-container" style="width:1500px; height:1500px;"></div>
     <script>
         var chart_df7ed8c6557b4c41a7f48b2f517406c4 = echarts.init(
