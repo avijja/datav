@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<head>
+    <!-- <script src="http://localhost:8080/index.js"></script> -->
+    <script src="./index.js"></script>
+    <style>
+        html, body {
+          width: 100%;
+          height: 100%;
+          margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+	<h1>临海人时地物诗图谱</h1>
+    <div style="width: 100%; height: 100%;" id="chart"></div>
+    </div>
+    <script>
+        window.onload = function () {
+            VizZafy.test({
+                name: '李金宝',
+                bar: {
+                    startTime: 7000,
+                    duration: 500,
+                },
+                geo: {
+                    // startTime: 22000,
+                    startTime: 6000,
+                    duration: 2000,
+                },
+                pie: {
+                    startTime: 55000,
+                    duration: 5000,
+                },
+                pie2: {
+                    startTime: 6000,
+                    duration: 5000,
+                }
+            })
+            // const run = function(t) {
+            //     window.vDOM.seek(t);
+            //     requestAnimationFrame(run);
+            // }
+            // requestAnimationFrame(run);
+        }
+    </script>
+</body>
